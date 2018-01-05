@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+				<link href="assets/css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+						<script src="assets/js/jquery.min.js"></script>
+					<script src="assets/js/jquery.magnific-popup.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div data-wow-delay="0.4s" data-cat="card">
+						
+							<a href="#small-dialog" class=" popup-with-zoom-anim">
+						     <img src="images/pic05.jpg" class="img-responsive" alt="" />
+						  	</a>
+		                </div>
+
+				<div id="small-dialog" class="mfp-hide">
+						<div class="image-top">
+							<img src="images/pic1.jpg" class="img-responsive" alt="" />
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to book.There are many variations of passages of Lorem Ipsum available, by injected humour. </p>
+						</div>
+					</div>
+	<script>
+						$(document).ready(function() {
+						$('.popup-with-zoom-anim').magnificPopup({
+							type: 'inline',
+							fixedContentPos: false,
+							fixedBgPos: true,
+							overflowY: 'auto',
+							closeBtnInside: true,
+							preloader: false,
+							midClick: true,
+							removalDelay: 300,
+							mainClass: 'my-mfp-zoom-in'
+						});
+																						
+						});
+			</script>
+</body>
+</html>
